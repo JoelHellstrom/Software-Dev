@@ -1,6 +1,7 @@
-def main():
-    print("Hello, World!")
+def calculate_square(num):
+    return f"The square of {num} is {num ** 2}"
 
 
 if __name__ == "__main__":
-    main()
+    user_num = float(input("Enter a number: "))
+    print(calculate_square(user_num))
